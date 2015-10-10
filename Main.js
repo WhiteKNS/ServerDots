@@ -81,8 +81,10 @@ var WebSocketServer = new require('ws');
 
 var clients = {};
 
+var Port1 = Number(process.env.PORT||8081);
+
 var webSocketServer = new WebSocketServer.Server({
-    port: 8081
+    port: Port1
 });
 webSocketServer.on('connection', function(ws) {
 
