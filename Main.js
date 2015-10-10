@@ -2,7 +2,7 @@
  * Created by Natalya on 0/0/2015.
  */
 
-var pl = require('./user');
+var pl = require('./user1');
 
 var player = new pl.Player();
 var player2 = new pl.Player();
